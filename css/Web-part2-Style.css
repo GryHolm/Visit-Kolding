@@ -1,0 +1,15 @@
+main {
+  padding: 45px 145px;
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+}
+section {
+  display: flex;
+  gap: 130px;
+  flex: 1;
+}
+section img {
+  max-width: 50%;
+  object-fit: cover;
+}
