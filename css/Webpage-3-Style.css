@@ -1,0 +1,12 @@
+.text-column {
+  columns: 3;
+  padding: 45px 145px;
+  gap: 50px;
+}
+section {
+  padding: 45px 145px;
+  display: flex;
+}
+section img {
+  object-fit: cover;
+}
