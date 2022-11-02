@@ -1,3 +1,4 @@
+@import url(fonts.css);
 footer section {
   display: flex;
   padding: 50px 145px;
@@ -8,6 +9,7 @@ footer section {
 footer i {
   font-size: 45px;
   padding: 50px;
+  color: black;
 }
 
 .flexSpaceBetween {
@@ -28,7 +30,6 @@ footer a {
   display: block;
 
   text-decoration: none;
-  color: black;
 }
 
 /*  */
