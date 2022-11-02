@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 .container {
   width: 100%;
   max-width: 1190px;
