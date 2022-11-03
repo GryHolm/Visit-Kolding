@@ -1,18 +1,19 @@
 @import url(fonts.css);
 @import url(global.css);
+@import url(nav-header-footerStyle.css);
 
-.container {
+main .container {
   padding: 45px 0;
   display: flex;
   flex-direction: column;
   gap: 130px;
 }
-section {
+main section {
   display: flex;
   gap: 130px;
   flex: 1;
 }
-section img {
+main section img {
   max-width: 50%;
   object-fit: cover;
 }
