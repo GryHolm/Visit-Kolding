@@ -17,6 +17,10 @@ footer .flexSpaceBetween {
   justify-content: space-between;
 }
 
+.color-2 {
+  background-color: #6c6c6c;
+}
+
 /* Links in footer */
 #footerLinks {
   display: flex;
@@ -33,6 +37,10 @@ footer a {
   text-decoration: none;
 }
 
+.color-3 {
+  background-color: #d0d0d0;
+}
+
 /* Rights and copyright */
 #privacyPolicy div {
   display: flex;
@@ -43,4 +51,8 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.color-4 {
+  background-color: #ebebeb;
 }

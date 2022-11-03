@@ -8,6 +8,10 @@ nav .container {
   padding: 15px 0;
 }
 
+nav {
+  background-color: #fafafa;
+}
+
 nav ul {
   display: flex;
   gap: 25px;
