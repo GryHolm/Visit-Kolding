@@ -1,10 +1,13 @@
+@import url(fonts.css);
+@import url(global.css);
+
 .text-column {
   columns: 3;
-  padding: 45px 145px;
+  padding: 45px 0;
   gap: 50px;
 }
-section {
-  padding: 45px 145px;
+section .container {
+  padding: 45px 0;
   display: flex;
 }
 section img {
