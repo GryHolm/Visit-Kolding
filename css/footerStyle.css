@@ -13,7 +13,7 @@ footer i {
   color: black;
 }
 
-.flexSpaceBetween {
+footer .flexSpaceBetween {
   justify-content: space-between;
 }
 
@@ -38,7 +38,8 @@ footer a {
   display: flex;
   gap: 45px;
 }
-.container {
+
+footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;

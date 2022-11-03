@@ -1,14 +1,17 @@
 @import url(fonts.css);
 @import url(global.css);
 
-#bg-picture {
+header #bg-picture {
   width: 100%;
-  background-image: url("../assets/Placement.png");
+  background-image: url("../assets/img/Placement.png");
   min-height: 200px;
   max-height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h2 {
