@@ -1,11 +1,11 @@
 @import url(fonts.css);
 @import url(global.css);
 
-header {
+#bg-picture {
   width: 100%;
   background-image: url("../assets/Placement.png");
   min-height: 200px;
-  max-height: 500px;
+  max-height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
