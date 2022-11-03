@@ -1,3 +1,87 @@
-@import url(headerStyle.css);
-@import url(footerStyle.css);
-@import url(navStyle.css);
+/* NAV STYLE */
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+}
+nav i {
+  font-size: 2rem;
+}
+
+/* HEADER STYLE */
+header #bg-picture {
+  width: 100%;
+  background-image: url("../assets/img/Placement.png");
+  min-height: 200px;
+  max-height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h2 {
+  margin-top: 410px;
+  background-color: white;
+  width: fit-content;
+  padding: 20px;
+  padding-right: 200px;
+}
+header p {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+/* FOOTER STYLE */
+footer section {
+  display: flex;
+  padding: 45px 0;
+  align-items: center;
+}
+/* Følg Os */
+footer i {
+  font-size: 45px;
+  padding: 50px;
+  color: black;
+}
+footer .flexSpaceBetween {
+  justify-content: space-between;
+}
+/* Links in footer */
+#footerLinks {
+  display: flex;
+  gap: 100px;
+}
+.linksColumn {
+  flex-direction: column;
+  text-align: center;
+}
+footer a {
+  padding: 24px 24px 0 24px;
+  display: block;
+
+  text-decoration: none;
+}
+/* Rights and copyright */
+#privacyPolicy div {
+  display: flex;
+  gap: 45px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

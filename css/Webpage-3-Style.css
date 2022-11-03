@@ -1,15 +1,26 @@
 @import url(fonts.css);
 @import url(global.css);
+@import url(nav-header-footerStyle.css);
 
-.text-column {
+main .text-column {
   columns: 3;
   padding: 45px 0;
   gap: 50px;
 }
-section .container {
+main section .container {
   padding: 45px 0;
   display: flex;
 }
-section img {
+main section img {
   object-fit: cover;
+}
+#main-artical {
+  width: 65%;
+}
+#main-artical img {
+  width: 100%;
+}
+main #side-pic {
+  max-width: 35%;
+  max-height: 400px;
 }
