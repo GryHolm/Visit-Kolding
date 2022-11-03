@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&display=swap");
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  src: url(/assets/fonts/HelveticaNeueBold.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  src: url(/assets/fonts/HelveticaNeueRegular.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  src: url(/assets/fonts/HelveticaNeueMedium.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 200;
+  src: url(/assets/fonts/HelveticaNeueLight.ttf);
+}
+
+h1 {
+  /* On img-tag? */
+}
+
+/* 45px = 4.5rem */
+h2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  color: #000;
+  line-height: 5.2rem;
+}
+
+h3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  font-size: 3.5rem;
+  color: #000;
+  line-height: 4.5rem;
+}
+
+h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #3d3d3d;
+  line-height: 4.2rem;
+}
+
+h5 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #000;
+  line-height: 3.2rem;
+}
+
+h6 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #707070;
+  line-height: 2.9rem;
+}
+
+p {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+.nav-items {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #707070;
+  line-height: 2.3rem;
+}
+
+.semi-hl {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #000;
+  line-height: 3.2re;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.text-on-light-bg {
+  color: #000;
+}
+
+.text-on-dark-bg {
+  color: #fff;
+}
+
+.footer-desc {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #737373;
+  line-height: 2.6rem;
+}
+
+.footer-links {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #3d3d3d;
+  line-height: 2.4rem;
+}
+
+.footer-strip {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #3d3d3d;
+  line-height: 1.9rem;
+}
