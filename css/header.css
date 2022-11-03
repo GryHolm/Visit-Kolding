@@ -1,8 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url(fonts.css);
+@import url(global.css);
 
 header {
   width: 100%;
@@ -14,9 +11,8 @@ header {
   background-position: center;
 }
 
-header h1 {
+header h2 {
   margin-top: 410px;
-  margin-left: 80px;
   background-color: white;
   width: fit-content;
   padding: 20px;
@@ -26,4 +22,5 @@ header h1 {
 header p {
   max-width: 60%;
   margin: 0 auto;
+  padding: 100px 0;
 }
