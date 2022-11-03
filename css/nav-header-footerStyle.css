@@ -18,6 +18,9 @@ nav a {
 nav i {
   font-size: 2rem;
 }
+.active {
+  display: none;
+}
 
 /* HEADER STYLE */
 header #bg-picture {
@@ -84,4 +87,26 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+
+  footer i {
+    padding: 5px;
+  }
+  #footerLinks {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .follow h2 {
+    display: none;
+  }
 }
