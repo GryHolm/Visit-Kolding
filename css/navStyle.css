@@ -21,3 +21,18 @@ nav a {
 nav i {
   font-size: 2rem;
 }
+#dropDowm-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+  #dropDowm-menu {
+    display: block;
+  }
+  ul li {
+    display: none;
+  }
+}

@@ -44,3 +44,15 @@ footer .container {
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .follow h2 {
+    display: none;
+  }
+  #footerLinks {
+    gap: 0;
+  }
+  .footer-links {
+    padding: 10px 10px 0 10px;
+  }
+}
