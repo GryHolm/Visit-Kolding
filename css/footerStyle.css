@@ -1,0 +1,59 @@
+@import url(fonts.css);
+@import url(global.css);
+
+footer section {
+  display: flex;
+  align-items: center;
+  min-height: 8rem;
+}
+/* Følg Os */
+footer i {
+  font-size: 45px;
+  padding: 80px 50px;
+  color: black;
+}
+
+footer .flexSpaceBetween {
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.color-2 {
+  background-color: #6c6c6c;
+}
+
+/* Links in footer */
+#footerLinks {
+  display: flex;
+  gap: 100px;
+}
+.linksColumn {
+  flex-direction: column;
+  text-align: center;
+}
+footer a {
+  padding: 24px 24px 0 24px;
+  display: block;
+
+  text-decoration: none;
+}
+
+.color-3 {
+  background-color: #d0d0d0;
+}
+
+/* Rights and copyright */
+#privacyPolicy div {
+  display: flex;
+  gap: 45px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color-4 {
+  background-color: #ebebeb;
+}
