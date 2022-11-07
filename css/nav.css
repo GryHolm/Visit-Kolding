@@ -1,16 +1,14 @@
-@import url(fonts.css);
-@import url(global.css);
-
 nav .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 0;
+  min-height: 10rem;
+  background-color: #fafafa;
 }
 
 nav ul {
   display: flex;
-  gap: 25px;
+  gap: 5rem;
 }
 nav li {
   list-style: none;

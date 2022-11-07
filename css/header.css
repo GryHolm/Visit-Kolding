@@ -1,10 +1,7 @@
-@import url(fonts.css);
-@import url(global.css);
-
 header #bg-picture {
   width: 100%;
   background-image: url("../assets/img/Placement.png");
-  min-height: 200px;
+  min-height: 20rem;
   max-height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,15 +12,15 @@ header #bg-picture {
 }
 
 header h2 {
-  margin-top: 410px;
+  margin-top: 41rem;
   background-color: white;
   width: fit-content;
-  padding: 20px;
-  padding-right: 200px;
+  padding: 2rem;
+  padding-right: 15rem;
 }
 
 header p {
-  max-width: 60%;
+  max-width: 70%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 10rem 0;
 }

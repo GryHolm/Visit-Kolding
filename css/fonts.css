@@ -117,10 +117,11 @@ p {
   font-weight: 600;
   font-size: 1.8rem;
   color: #3d3d3d;
+  text-decoration: none;
   line-height: 2.4rem;
 }
 
-.footer-strip {
+.footer-strip-text {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
