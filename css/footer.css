@@ -1,0 +1,65 @@
+footer .container {
+  display: flex;
+  align-items: center;
+}
+
+/* Følg Os */
+
+.color-2 {
+  background-color: #6c6c6c;
+}
+
+.follow {
+  gap: 10rem;
+  min-height: 20rem;
+}
+
+footer i {
+  font-size: 4.5rem;
+  padding: 0 5rem;
+  color: black;
+}
+
+/* Links in footer */
+
+.color-3 {
+  background-color: #d0d0d0;
+}
+
+.links {
+  min-height: 30rem;
+}
+
+.links-left p {
+  max-width: 40%;
+}
+
+.linksColumns {
+  width: 50%;
+  display: flex;
+  gap: 5rem;
+}
+
+.linksColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+/* Footer-strip */
+
+.color-4 {
+  background-color: #ebebeb;
+}
+
+.footer-strip {
+  display: flex;
+  justify-content: space-between;
+  min-height: 8rem;
+}
+
+.footer-strip-links {
+  display: flex;
+  gap: 3rem;
+}
