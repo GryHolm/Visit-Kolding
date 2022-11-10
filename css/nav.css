@@ -6,6 +6,10 @@ nav .container {
   background-color: #fafafa;
 }
 
+nav {
+  background-color: #fafafa;
+}
+
 nav ul {
   display: flex;
   gap: 5rem;
