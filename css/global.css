@@ -14,3 +14,7 @@ html {
   max-width: 1630px;
   margin: 0 auto;
 }
+
+.dark-section {
+  background-color: #883f3f;
+}
