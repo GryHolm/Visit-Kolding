@@ -4,10 +4,6 @@
 @import url(header.css);
 @import url(footer.css);
 
-.dark-section {
-  background-color: #000;
-}
-
 section {
   display: flex;
 }
