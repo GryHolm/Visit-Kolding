@@ -1,6 +1,6 @@
 header #bg-picture {
   width: 100%;
-  background-image: url("../assets/img/Placement.png");
+  background-image: url("../assets/img/tøjdesign-min.jpg");
   min-height: 20rem;
   max-height: 50%;
   background-repeat: no-repeat;
@@ -23,4 +23,5 @@ header p {
   max-width: 70%;
   margin: 0 auto;
   padding: 10rem 0;
+  font-weight: 700;
 }
