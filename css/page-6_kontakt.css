@@ -3,3 +3,49 @@
 @import url(nav.css);
 @import url(header.css);
 @import url(footer.css);
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  width: 100%;
+  max-width: 30rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #666;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input {
+  padding: 1rem;
+  width: 100%;
+  max-width: 30rem;
+  outline: none;
+  border: 1px solid #04aa6d;
+}
+
+.placeholder {
+  position: absolute;
+  top: 1rem;
+  left: 0.8rem;
+  font-size: 1.4rem;
+  padding: 0 0.5rem;
+  color: #666;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.input:focus + .placeholder {
+  top: -1rem;
+  color: #04aa6d;
+  background-color: #fff;
+}

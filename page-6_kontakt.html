@@ -54,10 +54,31 @@
 
     <!--Indhold på siden-->
     <main>
-      <form action="/" class="form">
-        <input type="text" class="input" />
-        <label class="placeholder">Placeholder</label>
-      </form>
+      <section>
+        <div class="container">
+          <form action="/" class="form">
+            <div class="input-group">
+              <input type="text" class="input" required />
+              <label class="placeholder">Navn</label>
+            </div>
+            <div class="input-group">
+              <input type="email" class="input" required />
+              <label class="placeholder">Email</label>
+            </div>
+            <div class="input-group">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                class="input"
+                required
+              ></textarea>
+              <label class="placeholder">Besked</label>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
     <!--Indhold på siden-->
 
